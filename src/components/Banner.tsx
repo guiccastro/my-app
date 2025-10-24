@@ -2,7 +2,7 @@ import React from "react";
 import profileImage from "../assets/image-perfil.png";
 import './Banner.css';
 
-const Banner: React.FC = () => {
+export default function Banner() {
   return (
     <section id="banner" className="banner">
       <h1 className="title">Guilherme Silva de Castro</h1>
@@ -27,5 +27,3 @@ const Banner: React.FC = () => {
     </section>
   );
 };
-
-export default Banner;

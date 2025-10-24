@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './Header.css';
 
-const Header: React.FC = () => {
+export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = (e: React.MouseEvent) => {
@@ -45,5 +45,3 @@ const Header: React.FC = () => {
     </header>
   );
 };
-
-export default Header;

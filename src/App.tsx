@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "./components/Header";
-import Projects from "./components/Projects";
-import Languages from "./components/Languages";
-import Competences from "./components/Competences";
-import Contact from "./components/Contact";
-import Certificates from "./components/Certificates";
 import Banner from "./components/Banner";
 import About from "./components/About";
 import Experiences from "./components/Experiences";
 import Academic from "./components/Academic";
+import Projects from "./components/Projects";
+import Languages from "./components/Languages";
+import Competences from "./components/Competences";
+import Certificates from "./components/Certificates";
+import Contact from "./components/Contact";
 
-const App: React.FC = () => {
+export default function App() {
   return (
     <>
       <Header />
@@ -26,5 +26,3 @@ const App: React.FC = () => {
     </>
   );
 };
-
-export default App;
