@@ -25,9 +25,9 @@ export default function Header() {
           <a href="#contact">Contato</a>
         </div>
 
-        <a href="javascript:void(0);" className="menu" onClick={toggleMenu}>
+        <button className="menu" onClick={toggleMenu}>
           <i className="fa fa-bars"></i>
-        </a>
+        </button>
       </nav>
 
       <nav id="nav-dropdown" className={`nav-dropdown ${menuOpen ? 'open' : ''}`}>
