@@ -1,0 +1,106 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+    .projects .list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 20px;
+        gap: 60px;
+    }
+
+    .projects .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        max-width: 1200px;
+        text-align: center;
+        border-radius: 10px;
+        background-color: var(--background-project-item);
+        box-shadow: 4px 4px 8px var(--dark-shadow);
+        cursor: pointer;
+        text-decoration: none;
+        color: var(--font-color);
+    }
+
+    .projects .item:hover {
+        background-color: var(--dark-hover-color);
+    }
+
+    .projects img {
+        width: 100%;
+        max-height: 700px;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 10px solid var(--fourth-color);
+    }
+    
+    .projects h2 {
+        font-size: 40px;
+        font-weight: 500;
+        padding: 30px 30px 20px 30px;
+    }
+    
+    .projects h3 {
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0 30px;
+    }
+    
+    .projects h4 {
+        font-size: 16px;
+        font-weight: 200;
+        padding: 0 30px;
+    }
+
+    .projects h5 {
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 500;
+        padding: 0 30px 30px;
+    }
+    
+    .projects p {
+        font-size: 18px;
+        padding: 20px 30px;
+        font-weight: 300;
+    }
+
+    .projects b {
+        font-weight: 400;
+    }
+
+@media screen and (max-width: 1150px) {
+    /* Project */
+        .projects img {
+            max-height: 200px;
+        }
+        
+        .projects h2 {
+            font-size: 30px;
+        }
+        
+        .projects h3 {
+            font-size: 16px;
+        }
+        
+        .projects h4 {
+            font-size: 14px;
+        }
+    
+        .projects h5 {
+            font-size: 14px;
+        }
+        
+        .projects p {
+            font-size: 15px;
+        }
+}

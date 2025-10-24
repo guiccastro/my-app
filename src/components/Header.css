@@ -1,0 +1,101 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+    header nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: var(--secundary-color);
+        padding: 5px 100px 5px 100px;
+        gap: 5px;
+    }
+
+    header nav a {
+        color: var(--font-color);
+        text-decoration: none;
+        text-align: center;
+        padding: 10px 10px;
+        border-radius: 10px;
+        white-space: nowrap;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    header nav a:hover {
+        background-color: var(--dark-hover-color);
+    }
+
+    header nav .main {
+        font-size: 20px;
+        font-weight: 900;
+        margin-right: 20px;
+        color: var(--tertiary-color);
+    }
+
+    header nav .options {
+        display: inherit;
+    }
+
+    header nav .menu {
+        display: none;
+    }
+
+    .nav-dropdown {
+        display: none;
+        justify-content: end;
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .nav-dropdown.open {
+        display: flex;
+    }
+
+    header nav .options-dropdown {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        padding: 10px 20px;
+        background-color: var(--tertiary-color);
+        gap: 10px;
+    }
+
+@media screen and (max-width: 1500px) {
+
+    header nav .main {
+        width: 100%;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    header nav .options {
+        width: 100%;
+        display: inherit;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+
+    /* Header */
+    header nav {
+        padding: 5px 10px;
+    }
+
+    header nav .main {
+        width: auto;
+    }
+
+    header nav .options {
+        display: none;
+    }
+
+    header nav .menu {
+        display: block;
+    }
+}
