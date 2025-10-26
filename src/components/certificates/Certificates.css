@@ -1,0 +1,39 @@
+.certificates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.certificates .list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding: 100px 10%;
+}
+
+.certificates .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.certificates b {
+  font-weight: 400;
+}
+
+.certificates h2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.certificates h3 {
+  font-weight: 300;
+}
+
+.certificates h4 {
+  font-weight: 400;
+  font-style: italic;
+}

@@ -1,0 +1,13 @@
+.tabs {
+  display: inherit;
+
+  @media (width <= 1500px) {
+    width: 100%;
+    display: inherit;
+    justify-content: center;
+  }
+
+  @media (width <= 1150px) {
+    display: none;
+  }
+}

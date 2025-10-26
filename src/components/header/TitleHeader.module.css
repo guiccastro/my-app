@@ -1,0 +1,16 @@
+.title {
+  font-size: 20px;
+  font-weight: 900;
+  margin-right: 20px;
+  color: var(--tertiary-color);
+
+  @media (width <= 1500px) {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  @media (width <= 1500px) {
+    width: auto;
+  }
+}
