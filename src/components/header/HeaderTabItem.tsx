@@ -7,10 +7,12 @@ export default function HeaderTabItem({
   href,
   label,
   activeTab,
+  onClick,
 }: HeaderTabItemProps) {
   return (
     <a
       href={href}
+      onClick={onClick}
       className={classnames(styles.item, { [styles.active]: activeTab === id })}
     >
       {label}

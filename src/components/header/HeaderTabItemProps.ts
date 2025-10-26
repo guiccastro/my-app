@@ -5,4 +5,5 @@ export interface HeaderTabItemProps {
   href: string;
   label: string;
   activeTab: PageSections;
+  onClick?: () => void;
 }

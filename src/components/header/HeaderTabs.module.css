@@ -11,3 +11,9 @@
     display: none;
   }
 }
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

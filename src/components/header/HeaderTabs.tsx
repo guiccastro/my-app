@@ -5,10 +5,14 @@ import { PageSections } from '../../usePageSectionsRefMap';
 import content from '../../content.json';
 import { Content } from '../../content.types';
 
-export default function HeaderTabs({ activeTab }: HeaderTabsProps) {
+export default function HeaderTabs({
+  activeTab,
+  isVertical = false,
+  onTabClick,
+}: HeaderTabsProps) {
   const { tabs } = (content as Content).header;
   return (
-    <div className={styles.tabs}>
+    <div className={`${styles.tabs} ${isVertical ? styles.vertical : ''}`}>
       {tabs.map((tab, index) => (
         <HeaderTabItem
           key={index}
@@ -16,6 +20,7 @@ export default function HeaderTabs({ activeTab }: HeaderTabsProps) {
           href={tab.href}
           label={tab.label}
           activeTab={activeTab}
+          onClick={onTabClick}
         />
       ))}
     </div>
