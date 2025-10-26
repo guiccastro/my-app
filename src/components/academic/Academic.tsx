@@ -1,27 +1,29 @@
 import React from 'react';
 import './Academic.css';
-import furgLogo from '../../assets/furg_logo.jpg';
-import ctbmLogo from '../../assets/ctbm_logo.jpg';
 import { AcademicProps } from './AcademicProps';
+import content from '../../content.json';
+
+const logoMap: { [key: string]: string } = {
+  'furg_logo.jpg': require('../../assets/furg_logo.jpg'),
+  'ctbm_logo.jpg': require('../../assets/ctbm_logo.jpg'),
+};
 
 export default function Academic({ ref }: AcademicProps) {
+  const { title, items } = content.academic;
+
   return (
     <section id="academic" className="academic" ref={ref}>
-      <h1 className="section-title">Formação Acadêmica</h1>
+      <h1 className="section-title">{title}</h1>
 
       <div className="list">
-        <div className="item">
-          <img src={furgLogo} alt="FURG Logo" />
-          <h2>Universidade Federal de Rio Grande</h2>
-          <h3>Ensino Superior (2016 - 2021)</h3>
-          <h4>Bacharelado em Engenharia de Computação</h4>
-        </div>
-
-        <div className="item">
-          <img src={ctbmLogo} alt="CTBM Logo" />
-          <h2>Colégio Tiradentes da Brigada Militar de Passo Fundo</h2>
-          <h3>Ensino Médio (2013 - 2015)</h3>
-        </div>
+        {items.map((item, index) => (
+          <div className="item" key={index}>
+            <img src={logoMap[item.logo]} alt={`${item.institution} Logo`} />
+            <h2>{item.institution}</h2>
+            <h3>{item.level}</h3>
+            {item.course && <h4>{item.course}</h4>}
+          </div>
+        ))}
       </div>
     </section>
   );

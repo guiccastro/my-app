@@ -9,8 +9,7 @@ import Languages from './components/languages/Languages';
 import Competences from './components/competences/Competences';
 import Certificates from './components/certificates/Certificates';
 import Contact from './components/contact/Contact';
-import usePageSectionsRefMap from './usePageSectionsRefMap';
-import { PageSections } from './PageSections';
+import usePageSectionsRefMap, { PageSections } from './usePageSectionsRefMap';
 
 export default function App() {
   const pageSectionsRefMap = usePageSectionsRefMap();
@@ -83,8 +82,8 @@ export default function App() {
         <Languages ref={pageSectionsRefMap[PageSections.languages]} />
         <Competences ref={pageSectionsRefMap[PageSections.competences]} />
         <Certificates ref={pageSectionsRefMap[PageSections.certificates]} />
-        <Contact ref={pageSectionsRefMap[PageSections.contacts]} />
       </main>
+      <Contact ref={pageSectionsRefMap[PageSections.contacts]} />
     </>
   );
 }

@@ -3,9 +3,12 @@ import './Header.css';
 import TitleHeader from './TitleHeader';
 import HeaderTabs from './HeaderTabs';
 import { HeaderProps } from './HeaderProps';
+import content from '../../content.json';
+import { Content } from '../../content.types';
 
 export default function Header({ activeTab }: HeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { tabs } = (content as Content).header;
 
   const toggleMenu = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -29,30 +32,11 @@ export default function Header({ activeTab }: HeaderProps) {
         className={`nav-dropdown ${menuOpen ? 'open' : ''}`}
       >
         <div className="options-dropdown">
-          <a href="#about-me" onClick={() => setMenuOpen(false)}>
-            Sobre Mim
-          </a>
-          <a href="#experiences" onClick={() => setMenuOpen(false)}>
-            Experiências
-          </a>
-          <a href="#academic" onClick={() => setMenuOpen(false)}>
-            Formação Acadêmica
-          </a>
-          <a href="#projects" onClick={() => setMenuOpen(false)}>
-            Projetos
-          </a>
-          <a href="#languages" onClick={() => setMenuOpen(false)}>
-            Idiomas
-          </a>
-          <a href="#competences" onClick={() => setMenuOpen(false)}>
-            Competências
-          </a>
-          <a href="#certificates" onClick={() => setMenuOpen(false)}>
-            Certificados
-          </a>
-          <a href="#contact" onClick={() => setMenuOpen(false)}>
-            Contato
-          </a>
+          {tabs.map((tab, index) => (
+            <a href={tab.href} onClick={() => setMenuOpen(false)} key={index}>
+              {tab.label}
+            </a>
+          ))}
         </div>
       </nav>
     </header>
