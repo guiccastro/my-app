@@ -1,5 +1,4 @@
 import React from 'react';
-import profileImage from '../../assets/image-perfil.png';
 import './About.css';
 import content from '../../content.json';
 import { AboutProps } from './AboutProps';
@@ -17,7 +16,11 @@ export default function About({ ref }: AboutProps) {
             <p key={index}>{paragraph}</p>
           ))}
         </div>
-        <img src={profileImage} alt="Imagem de Perfil" className="perfil" />
+        <img
+          src="https://github.com/guiccastro.png"
+          alt="Imagem de Perfil"
+          className="perfil"
+        />
       </div>
 
       <div className="details">
