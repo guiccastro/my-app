@@ -2,10 +2,12 @@ import React from 'react';
 import './Academic.css';
 import { AcademicProps } from './AcademicProps';
 import content from '../../content.json';
+import furgLogo from '../../assets/furg_logo.jpg';
+import ctbmLogo from '../../assets/ctbm_logo.jpg';
 
 const logoMap: { [key: string]: string } = {
-  'furg_logo.jpg': require('../../assets/furg_logo.jpg'),
-  'ctbm_logo.jpg': require('../../assets/ctbm_logo.jpg'),
+  'furg_logo.jpg': furgLogo,
+  'ctbm_logo.jpg': ctbmLogo,
 };
 
 export default function Academic({ ref }: AcademicProps) {

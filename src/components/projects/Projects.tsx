@@ -3,13 +3,18 @@ import './Projects.css';
 import { ProjectsProps } from './ProjectsProps';
 import content from '../../content.json';
 import { Content } from '../../content.types';
+import curriculoOnlineBanner from '../../assets/curriculo_online_banner.png';
+import mydexBanner from '../../assets/mydex_banner.png';
+import tccBanner from '../../assets/tcc_banner.png';
+import autoceresBanner from '../../assets/autoceres_banner.jpg';
+import furgbotBanner from '../../assets/furgbot_banner.jpg';
 
 const bannerMap: { [key: string]: string } = {
-  'curriculo_online_banner.png': require('../../assets/curriculo_online_banner.png'),
-  'mydex_banner.png': require('../../assets/mydex_banner.png'),
-  'tcc_banner.png': require('../../assets/tcc_banner.png'),
-  'autoceres_banner.jpg': require('../../assets/autoceres_banner.jpg'),
-  'furgbot_banner.jpg': require('../../assets/furgbot_banner.jpg'),
+  'curriculo_online_banner.png': curriculoOnlineBanner,
+  'mydex_banner.png': mydexBanner,
+  'tcc_banner.png': tccBanner,
+  'autoceres_banner.jpg': autoceresBanner,
+  'furgbot_banner.jpg': furgbotBanner,
 };
 
 export default function Projects({ ref }: ProjectsProps) {

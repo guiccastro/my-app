@@ -3,13 +3,18 @@ import './Experiences.css';
 import { ExperiencesProps } from './ExperiencesProps';
 import content from '../../content.json';
 import { Content } from '../../content.types';
+import hcltechLogo from '../../assets/hcltech_logo.jpeg';
+import nelogicaLogo from '../../assets/nelogica_logo.jpg';
+import furgLogo from '../../assets/furg_logo.jpg';
+import autoceresLogo from '../../assets/autoceres_logo.png';
+import furgbotLogo from '../../assets/furgbot_logo.png';
 
 const logoMap: { [key: string]: string } = {
-  'hcltech_logo.jpeg': require('../../assets/hcltech_logo.jpeg'),
-  'nelogica_logo.jpg': require('../../assets/nelogica_logo.jpg'),
-  'furg_logo.jpg': require('../../assets/furg_logo.jpg'),
-  'autoceres_logo.png': require('../../assets/autoceres_logo.png'),
-  'furgbot_logo.png': require('../../assets/furgbot_logo.png'),
+  'hcltech_logo.jpeg': hcltechLogo,
+  'nelogica_logo.jpg': nelogicaLogo,
+  'furg_logo.jpg': furgLogo,
+  'autoceres_logo.png': autoceresLogo,
+  'furgbot_logo.png': furgbotLogo,
 };
 
 export default function Experiences({ ref }: ExperiencesProps) {

@@ -1,5 +1,5 @@
 import React from 'react';
 
 export interface AcademicProps {
-  ref: React.RefObject<HTMLDivElement>;
+  ref: React.RefObject<HTMLDivElement | null>;
 }

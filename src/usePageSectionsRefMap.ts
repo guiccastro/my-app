@@ -14,17 +14,17 @@ export enum PageSections {
 
 export default function usePageSectionsRefMap(): Record<
   PageSections,
-  RefObject<any>
+  RefObject<HTMLDivElement | null>
 > {
   return {
-    [PageSections.overview]: useRef<HTMLElement>(null),
-    [PageSections.about]: useRef<HTMLElement>(null),
-    [PageSections.experiences]: useRef<HTMLElement>(null),
-    [PageSections.academic]: useRef<HTMLElement>(null),
-    [PageSections.projects]: useRef<HTMLElement>(null),
-    [PageSections.languages]: useRef<HTMLElement>(null),
-    [PageSections.competences]: useRef<HTMLElement>(null),
-    [PageSections.certificates]: useRef<HTMLElement>(null),
-    [PageSections.contacts]: useRef<HTMLElement>(null),
+    [PageSections.overview]: useRef<HTMLDivElement>(null),
+    [PageSections.about]: useRef<HTMLDivElement>(null),
+    [PageSections.experiences]: useRef<HTMLDivElement>(null),
+    [PageSections.academic]: useRef<HTMLDivElement>(null),
+    [PageSections.projects]: useRef<HTMLDivElement>(null),
+    [PageSections.languages]: useRef<HTMLDivElement>(null),
+    [PageSections.competences]: useRef<HTMLDivElement>(null),
+    [PageSections.certificates]: useRef<HTMLDivElement>(null),
+    [PageSections.contacts]: useRef<HTMLDivElement>(null),
   };
 }
