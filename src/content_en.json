@@ -1,0 +1,592 @@
+{
+  "title": "Guilherme Castro",
+  "about": {
+    "title": "About Me",
+    "description": [
+      "I am a Computer Engineer from FURG, with 2 years of professional experience and solid knowledge in Android development. I also had an internship focused on Python development.",
+      "My academic background includes participation in several research and development projects at FURG, where I improved my technical and collaborative skills. My final paper was developed in Unity with Ray Tracing, demonstrating my ability to work with advanced and innovative technologies.",
+      "In addition, I have knowledge in Web development, which allows me to work in different areas of technology. I am always looking for new challenges and opportunities to apply my knowledge and contribute to the development of cutting-edge technological solutions."
+    ],
+    "details": [
+      {
+        "title": "Driver's License",
+        "value": "Yes, category B"
+      },
+      {
+        "title": "Date of Birth",
+        "value": "04/16/1998"
+      }
+    ]
+  },
+  "academic": {
+    "title": "Academic Background",
+    "items": [
+      {
+        "logo": "furg_logo.jpg",
+        "institution": "Federal University of Rio Grande",
+        "level": "Higher Education (2016 - 2021)",
+        "course": "Bachelor's in Computer Engineering"
+      },
+      {
+        "logo": "ctbm_logo.jpg",
+        "institution": "Tiradentes Military Brigade College of Passo Fundo",
+        "level": "High School (2013 - 2015)"
+      }
+    ]
+  },
+  "certificates": {
+    "title": "Certificates",
+    "items": [
+      {
+        "title": "HTML and CSS: Header, Footer and CSS Variables",
+        "institution": "Alura",
+        "duration": "6H",
+        "date": "June 2024",
+        "skills": "HTML5 ● CSS ● Web Development"
+      },
+      {
+        "title": "HTML and CSS: Classes, Positioning and Flexbox",
+        "institution": "Alura",
+        "duration": "8H",
+        "date": "May 2024",
+        "skills": "HTML5 ● CSS ● Web Development"
+      },
+      {
+        "title": "HTML and CSS: Development Environments, File Structure and Tags",
+        "institution": "Alura",
+        "duration": "8H",
+        "date": "May 2024",
+        "skills": "HTML5 ● CSS ● Web Development"
+      },
+      {
+        "title": "React: Developing with JavaScript",
+        "institution": "Alura",
+        "duration": "14H",
+        "date": "May 2024",
+        "skills": "React ● JavaScript"
+      },
+      {
+        "title": "Evolve Android Apps with Jetpack Compose: Create Screens and Manage States",
+        "institution": "Alura",
+        "duration": "45H",
+        "date": "May 2023",
+        "skills": "MVVM ● StateFlow ● Kotlin ● Jetpack Compose"
+      },
+      {
+        "title": "Java: Applying Object Orientation",
+        "institution": "Alura",
+        "duration": "10H",
+        "date": "May 2023",
+        "skills": "Object Oriented Programming ● Java"
+      },
+      {
+        "title": "Java OO: Understanding Object Orientation",
+        "institution": "Alura",
+        "duration": "8H",
+        "date": "May 2023",
+        "skills": "Object Oriented Programming ● Java"
+      },
+      {
+        "title": "Kotlin: Resilient and Asynchronous Applications",
+        "institution": "Alura",
+        "duration": "8H",
+        "date": "May 2023",
+        "skills": "Resilience ● Retrofit ● Kotlin ● Coroutines ● Unit Test"
+      },
+      {
+        "title": "Mini-Course 3D - Zelda",
+        "institution": "Learn Unity",
+        "duration": "10H",
+        "date": "January 2021",
+        "skills": "Unity ● C#"
+      },
+      {
+        "title": "Workshop PlayGame",
+        "institution": "SAGA School",
+        "duration": "4H",
+        "date": "January 2021",
+        "skills": "Game Development ● Game Design"
+      },
+      {
+        "title": "AUTOCERES - Automation and Instrumentation in Family Farming",
+        "institution": "Federal University of Rio Grande",
+        "date": "January 2020",
+        "skills": "Android Development ● Java ● Arduino ● C"
+      },
+      {
+        "title": "Workshop/Fundamentals of Accelerated Computing with CUDA C/C++",
+        "institution": "NVIDIA Deep Learning Institute",
+        "date": "January 2019",
+        "skills": "C ● C++"
+      },
+      {
+        "title": "FURGBOT - The participation of FURG in Robotics Competitions",
+        "institution": "Federal University of Rio Grande",
+        "date": "February 2019",
+        "skills": "Robotics ● C ● C++"
+      },
+      {
+        "title": "VIII Integrated Academic Week of Computational Sciences - Docker Mini-Course",
+        "institution": "Federal University of Rio Grande",
+        "date": "February 2019",
+        "skills": "Docker"
+      },
+      {
+        "title": "VIII Integrated Academic Week of Computational Sciences - Fuzzy Logic for Developers Mini-Course",
+        "institution": "Federal University of Rio Grande",
+        "date": "February 2019",
+        "skills": "Fuzzy Logic"
+      },
+      {
+        "title": "VIII Integrated Academic Week of Computational Sciences - Participant",
+        "institution": "Federal University of Rio Grande",
+        "date": "February 2019"
+      },
+      {
+        "title": "VIII Integrated Academic Week of Computational Sciences - WebDriver and Ruby Mini-Course",
+        "institution": "Federal University of Rio Grande",
+        "date": "February 2019",
+        "skills": "WebDriver ● Ruby"
+      },
+      {
+        "title": "LARC/CRB 2018 - FSEK Participant",
+        "institution": "LARC/CRB",
+        "date": "November 2018",
+        "skills": "Robotics ● C"
+      },
+      {
+        "title": "VII Integrated Academic Week of Computational Sciences - Arduino Mini-Course",
+        "institution": "Federal University of Rio Grande",
+        "date": "June 2018",
+        "skills": "Arduino ● C"
+      },
+      {
+        "title": "VII Integrated Academic Week of Computational Sciences - Embedded Systems and FPGA Mini-Course",
+        "institution": "Federal University of Rio Grande",
+        "date": "June 2018",
+        "skills": "Embedded Systems ● FPGA"
+      },
+      {
+        "title": "VII Integrated Academic Week of Computational Sciences - Machine Learning Using Python Language Mini-Course",
+        "institution": "Federal University of Rio Grande",
+        "date": "June 2018",
+        "skills": "Machine Learning ● Python"
+      },
+      {
+        "title": "Roboweek 2018 - Participant",
+        "institution": "Federal University of Rio Grande",
+        "date": "May 2018"
+      },
+      {
+        "title": "Roboweek 2018 - ROS and Embedded Systems Mini-Course",
+        "institution": "Federal University of Rio Grande",
+        "date": "May 2018",
+        "skills": "Embedded Systems ● ROS"
+      },
+      {
+        "title": "Roboweek 2018 - Robotic Simulation Using Gazebo Mini-Course",
+        "institution": "Federal University of Rio Grande",
+        "date": "May 2018",
+        "skills": "Robotics ● Gazebo"
+      },
+      {
+        "title": "VI Integrated Academic Week of Computational Sciences - Lecture Series",
+        "institution": "Federal University of Rio Grande",
+        "date": "July 2017"
+      },
+      {
+        "title": "VI Integrated Academic Week of Computational Sciences - Arduino Mini-Course",
+        "institution": "Federal University of Rio Grande",
+        "date": "July 2017",
+        "skills": "Arduino ● C"
+      },
+      {
+        "title": "VI Integrated Academic Week of Computational Sciences - Participant",
+        "institution": "Federal University of Rio Grande",
+        "date": "July 2017"
+      }
+    ]
+  },
+  "competences": {
+    "title": "Competences",
+    "sections": [
+      {
+        "title": "Personal",
+        "type": "percentage",
+        "items": [
+          { "name": "Self-taught", "level": "90%" },
+          { "name": "Responsible", "level": "85%" },
+          { "name": "Dedicated", "level": "80%" },
+          { "name": "Focused", "level": "75%" },
+          { "name": "Willing to learn", "level": "70%" }
+        ]
+      },
+      {
+        "title": "Software",
+        "type": "level",
+        "items": [
+          {
+            "name": "Android Studio",
+            "level": "Advanced",
+            "levelClass": "advanced"
+          },
+          {
+            "name": "Unity",
+            "level": "Intermediate",
+            "levelClass": "intermediary"
+          },
+          { "name": "Trello", "level": "Basic", "levelClass": "basic" },
+          { "name": "Jira", "level": "Basic", "levelClass": "basic" },
+          {
+            "name": "Microsoft Word",
+            "level": "Advanced",
+            "levelClass": "advanced"
+          },
+          {
+            "name": "Microsoft PowerPoint",
+            "level": "Intermediate",
+            "levelClass": "intermediary"
+          },
+          {
+            "name": "Microsoft Excel",
+            "level": "Basic",
+            "levelClass": "basic"
+          }
+        ]
+      },
+      {
+        "title": "Programming Languages",
+        "type": "level",
+        "items": [
+          { "name": "Kotlin", "level": "Advanced", "levelClass": "advanced" },
+          {
+            "name": "Java",
+            "level": "Intermediate",
+            "levelClass": "intermediary"
+          },
+          {
+            "name": "C#",
+            "level": "Intermediate",
+            "levelClass": "intermediary"
+          },
+          {
+            "name": "Python",
+            "level": "Intermediate",
+            "levelClass": "intermediary"
+          },
+          {
+            "name": "C++",
+            "level": "Intermediate",
+            "levelClass": "intermediary"
+          },
+          { "name": "HTML", "level": "Basic", "levelClass": "basic" },
+          { "name": "CSS", "level": "Basic", "levelClass": "basic" },
+          { "name": "C", "level": "Basic", "levelClass": "basic" },
+          { "name": "SQL", "level": "Beginner", "levelClass": "beginner" }
+        ]
+      },
+      {
+        "title": "Technologies",
+        "type": "level",
+        "items": [
+          {
+            "name": "Android Development",
+            "level": "Advanced",
+            "levelClass": "advanced"
+          },
+          {
+            "name": "Design Patterns",
+            "level": "Intermediate",
+            "levelClass": "intermediary"
+          },
+          {
+            "name": "Web Development",
+            "level": "Basic",
+            "levelClass": "basic"
+          },
+          {
+            "name": "Game Development",
+            "level": "Basic",
+            "levelClass": "basic"
+          },
+          { "name": "Arduino", "level": "Basic", "levelClass": "basic" },
+          {
+            "name": "Database",
+            "level": "Beginner",
+            "levelClass": "beginner"
+          },
+          {
+            "name": "Electronics",
+            "level": "Beginner",
+            "levelClass": "beginner"
+          },
+          { "name": "Robotics", "level": "Beginner", "levelClass": "beginner" }
+        ]
+      },
+      {
+        "title": "Android Development",
+        "type": "level",
+        "items": [
+          { "name": "Kotlin", "level": "Advanced", "levelClass": "advanced" },
+          { "name": "Retrofit", "level": "Advanced", "levelClass": "advanced" },
+          {
+            "name": "MVVM Architecture",
+            "level": "Advanced",
+            "levelClass": "advanced"
+          },
+          {
+            "name": "Java",
+            "level": "Intermediate",
+            "levelClass": "intermediary"
+          },
+          {
+            "name": "Coroutines",
+            "level": "Intermediate",
+            "levelClass": "intermediary"
+          },
+          {
+            "name": "Dependency Injection",
+            "level": "Intermediate",
+            "levelClass": "intermediary"
+          },
+          {
+            "name": "Firebase Crashlytics",
+            "level": "Intermediate",
+            "levelClass": "intermediary"
+          },
+          {
+            "name": "Room",
+            "level": "Intermediate",
+            "levelClass": "intermediary"
+          },
+          { "name": "SQLite", "level": "Basic", "levelClass": "basic" }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "address": "São Leopoldo, Rio Grande do Sul - Brazil",
+    "phone": {
+      "number": "(53) 99999-2518",
+      "link": "tel:+5553999992518"
+    },
+    "email": {
+      "address": "guiccastro@outlook.com",
+      "link": "mailto:guiccastro@outlook.com"
+    },
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/guilhermescastro/",
+        "icon": "fa-brands fa-linkedin"
+      },
+      {
+        "name": "google-play",
+        "url": "https://play.google.com/store/apps/developer?id=Dev+Guilherme+Castro",
+        "icon": "fa-brands fa-google-play"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/guiccastro",
+        "icon": "fa-brands fa-github"
+      },
+      {
+        "name": "itch-io",
+        "url": "https://guilhermescastro.itch.io/",
+        "icon": "fa-brands fa-itch-io"
+      }
+    ],
+    "developedBy": "Developed by Guilherme Silva de Castro."
+  },
+  "experiences": {
+    "title": "Experiences",
+    "items": [
+      {
+        "logo": "hcltech_logo.jpeg",
+        "company": "HCLTech",
+        "role": "Android Developer",
+        "location": "São Leopoldo",
+        "period": "August 2024 - present",
+        "description": "Working at SAP as a third-party Android developer.",
+        "competences": "Kotlin ● GraphQL ● Jetpack Compose ● Dependency Injection"
+      },
+      {
+        "logo": "nelogica_logo.jpg",
+        "company": "Nelogica",
+        "role": "Android Developer II",
+        "location": "Porto Alegre (Remote)",
+        "period": "January 2022 - April 2023",
+        "description": "I worked on the Android development team using Kotlin, creating new screens and features, always following best practices and quality standards, using XML and MVVM architecture.",
+        "competences": "Kotlin ● Retrofit ● Coroutines ● XML ● Room ● SQLite ● Dependency Injection ● MVVM Architecture"
+      },
+      {
+        "logo": "nelogica_logo.jpg",
+        "company": "Nelogica",
+        "role": "Android Developer I",
+        "location": "Porto Alegre (Remote)",
+        "period": "May 2021 - January 2022",
+        "description": "I worked on the Android support team using Kotlin, fixing bugs, making improvements, monitoring issues, and optimizing performance, all using Firebase Crashlytics to track crashes.",
+        "competences": "Kotlin ● Retrofit ● Coroutines ● XML ● Room ● SQLite ● Dependency Injection ● MVVM Architecture ● Firebase Crashlytics"
+      },
+      {
+        "logo": "furg_logo.jpg",
+        "company": "Federal University of Rio Grande",
+        "role": "Scholarship Holder - Python Developer",
+        "location": "Rio Grande",
+        "period": "March 2021 - June 2021",
+        "description": "Assistance in the technical activities of the project, as well as the development of a pipeline for data sanitization and the creation of an online portal for the public visualization of this data, using Python.",
+        "competences": "Python"
+      },
+      {
+        "logo": "autoceres_logo.png",
+        "company": "AUTOCERES Team",
+        "role": "Android Developer",
+        "location": "Rio Grande",
+        "period": "May 2019 - December 2019",
+        "description": "AUTOCERES Project - Research and Development project seeking innovative solutions for family farming. The main ongoing case study is an intelligent boom sprayer.<br /><br />I developed a completely new Android application (made in Android Studio in Java), which controlled the nozzles of a sprayer boom via Bluetooth in connection with an Arduino (C language).",
+        "competences": "Android Studio ● Java ● Arduino ● C ● Bluetooth Communication"
+      },
+      {
+        "logo": "furgbot_logo.png",
+        "company": "FURGBOT Robotics Team",
+        "role": "C / C++ Developer",
+        "location": "Rio Grande",
+        "period": "April 2018 - June 2019",
+        "description": "FURGBOT Project - The participation of FURG in Robotics Competitions as a Complementary Curricular Environment in Engineering and Computing Education.<br /><br />I helped program the FURG robots (C and C++ language) for the robotics competition.",
+        "competences": "C ● C++"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "items": [
+      {
+        "name": "Portuguese",
+        "level": "Native",
+        "levelClass": "advanced"
+      },
+      {
+        "name": "English",
+        "level": "Advanced",
+        "levelClass": "intermediary"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "banner": "curriculo_online_banner.png",
+        "url": "https://guiccastro.github.io/",
+        "title": "Online Resume",
+        "type": "Web Page",
+        "period": "June 2024 – present",
+        "description": "My web page to serve as an online resume and portfolio for Web Development.",
+        "technologies": "Web Development ● HTML5 ● CSS ● JavaScript"
+      },
+      {
+        "banner": "mydex_banner.png",
+        "url": "https://play.google.com/store/apps/details?id=com.project.mypokedex",
+        "title": "MyDex",
+        "type": "Android App",
+        "period": "June 2023 – present",
+        "description": "MyDex is an Android application developed entirely by me using the PokeAPI. Its goal is to improve my knowledge in Android development with Retrofit, Compose, Room, among others. The application was launched on the Play Store for anyone to enjoy.",
+        "technologies": "Kotlin ● Retrofit ● Coroutines ● Compose ● Room ● SQLite ● Dependency Injection ● MVVM Architecture"
+      },
+      {
+        "banner": "tcc_banner.png",
+        "url": "https://guilhermescastro.itch.io/unity-sound-simulator",
+        "title": "Final Paper Project",
+        "type": "Federal University of Rio Grande - Researcher and developer",
+        "period": "January 2020 – December 2020",
+        "description": "<b>Software for calculating sound propagation under water in Unity using Ray Tracing.</b><br /><br />I studied the physical behavior of a sound wave in the aquatic environment and recreated these behaviors in Unity (C# language) using the Ray Tracing technique. Extra: Creation of a 3D object from a bathymetry file.",
+        "technologies": "Unity ● C# ● Ray Tracing"
+      },
+      {
+        "banner": "autoceres_banner.jpg",
+        "url": "https://www.facebook.com/AutoCERES/",
+        "title": "AUTOCERES",
+        "type": "Federal University of Rio Grande - Android app developer",
+        "period": "May 2019 – December 2019",
+        "description": "<b>Research and Development project seeking innovative solutions for family farming. The main ongoing case study is an intelligent boom sprayer.</b><br /><br />I developed a completely new Android application (made in Android Studio in Java), which controlled the nozzles of a sprayer boom via Bluetooth in connection with an Arduino (C language).",
+        "technologies": "Android Studio ● Java ● Arduino ● C ● Bluetooth Communication"
+      },
+      {
+        "banner": "furgbot_banner.jpg",
+        "url": "https://www.instagram.com/furgbot/",
+        "title": "FURGBOT",
+        "type": "Federal University of Rio Grande - C / C++ Programmer",
+        "period": "April 2018 – June 2019",
+        "description": "<b>The participation of FURG in Robotics Competitions as a Complementary Curricular Environment in Engineering and Computing Education.</b><br /><br />I helped program the FURG robots (C and C++ language) for the robotics competition.",
+        "technologies": "C ● C++"
+      }
+    ]
+  },
+  "banner": {
+    "title": "Guilherme Silva de Castro",
+    "description": "I am a 26-year-old Computer Engineer graduated from the Federal University of Rio Grande (FURG).",
+    "links": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/guilhermescastro/",
+        "icon": "fa-brands fa-linkedin"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/guiccastro",
+        "icon": "fa-brands fa-github"
+      },
+      {
+        "name": "Itch.io",
+        "url": "https://guilhermescastro.itch.io/",
+        "icon": "fa-brands fa-itch-io"
+      }
+    ]
+  },
+  "header": {
+    "title": "Online Resume",
+    "tabs": [
+      {
+        "id": "about",
+        "href": "#about-me",
+        "label": "About Me"
+      },
+      {
+        "id": "experiences",
+        "href": "#experiences",
+        "label": "Experiences"
+      },
+      {
+        "id": "academic",
+        "href": "#academic",
+        "label": "Academic"
+      },
+      {
+        "id": "projects",
+        "href": "#projects",
+        "label": "Projects"
+      },
+      {
+        "id": "languages",
+        "href": "#languages",
+        "label": "Languages"
+      },
+      {
+        "id": "competences",
+        "href": "#competences",
+        "label": "Competences"
+      },
+      {
+        "id": "certificates",
+        "href": "#certificates",
+        "label": "Certificates"
+      },
+      {
+        "id": "contacts",
+        "href": "#contact",
+        "label": "Contact"
+      }
+    ]
+  }
+}

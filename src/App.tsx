@@ -10,8 +10,22 @@ import Competences from './components/competences/Competences';
 import Certificates from './components/certificates/Certificates';
 import Contact from './components/contact/Contact';
 import usePageSectionsRefMap, { PageSections } from './usePageSectionsRefMap';
+import { Content } from './content.types';
+import content from './content.json';
+import contentEn from './content_en.json';
+
+type Language = 'pt' | 'en';
 
 export default function App() {
+  const [language, setLanguage] = useState<Language>('en');
+
+  const currentContent =
+    language === 'pt' ? (content as Content) : (contentEn as Content);
+
+  function handleLanguageChange(newLanguage: Language) {
+    setLanguage(newLanguage);
+  }
+
   const pageSectionsRefMap = usePageSectionsRefMap();
   const sectionVisibilityThreshold = 0.7;
   const intersectionPrecisionSteps = 50;
@@ -72,18 +86,50 @@ export default function App() {
 
   return (
     <>
-      <Header activeTab={activeTab} />
+      <Header
+        content={currentContent.header}
+        activeTab={activeTab}
+        language={language}
+        onLanguageChange={handleLanguageChange}
+      />
       <main>
-        <Banner ref={pageSectionsRefMap[PageSections.overview]} />
-        <About ref={pageSectionsRefMap[PageSections.about]} />
-        <Experiences ref={pageSectionsRefMap[PageSections.experiences]} />
-        <Academic ref={pageSectionsRefMap[PageSections.academic]} />
-        <Projects ref={pageSectionsRefMap[PageSections.projects]} />
-        <Languages ref={pageSectionsRefMap[PageSections.languages]} />
-        <Competences ref={pageSectionsRefMap[PageSections.competences]} />
-        <Certificates ref={pageSectionsRefMap[PageSections.certificates]} />
+        <Banner
+          ref={pageSectionsRefMap[PageSections.overview]}
+          content={currentContent.banner}
+        />
+        <About
+          ref={pageSectionsRefMap[PageSections.about]}
+          content={currentContent.about}
+        />
+        <Experiences
+          ref={pageSectionsRefMap[PageSections.experiences]}
+          content={currentContent.experiences}
+        />
+        <Academic
+          ref={pageSectionsRefMap[PageSections.academic]}
+          content={currentContent.academic}
+        />
+        <Projects
+          ref={pageSectionsRefMap[PageSections.projects]}
+          content={currentContent.projects}
+        />
+        <Languages
+          ref={pageSectionsRefMap[PageSections.languages]}
+          content={currentContent.languages}
+        />
+        <Competences
+          ref={pageSectionsRefMap[PageSections.competences]}
+          content={currentContent.competences}
+        />
+        <Certificates
+          ref={pageSectionsRefMap[PageSections.certificates]}
+          content={currentContent.certificates}
+        />
       </main>
-      <Contact ref={pageSectionsRefMap[PageSections.contacts]} />
+      <Contact
+        ref={pageSectionsRefMap[PageSections.contacts]}
+        content={currentContent.contact}
+      />
     </>
   );
 }

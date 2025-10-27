@@ -1,10 +1,9 @@
 import React from 'react';
 import './Certificates.css';
 import { CertificatesProps } from './CertificatesProps';
-import content from '../../content.json';
 
-export default function Certificates({ ref }: CertificatesProps) {
-  const { title, items } = content.certificates;
+export default function Certificates({ content, ref }: CertificatesProps) {
+  const { title, items } = content;
 
   return (
     <section id="certificates" className="certificates" ref={ref}>

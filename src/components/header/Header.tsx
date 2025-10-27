@@ -4,7 +4,12 @@ import TitleHeader from './TitleHeader';
 import HeaderTabs from './HeaderTabs';
 import { HeaderProps } from './HeaderProps';
 
-export default function Header({ activeTab }: HeaderProps) {
+export default function Header({
+  content,
+  activeTab,
+  language,
+  onLanguageChange,
+}: HeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = (e: React.MouseEvent) => {
@@ -15,9 +20,24 @@ export default function Header({ activeTab }: HeaderProps) {
   return (
     <header>
       <nav>
-        <TitleHeader />
+        <TitleHeader title={content.title} />
 
-        <HeaderTabs activeTab={activeTab} />
+        <HeaderTabs tabs={content.tabs} activeTab={activeTab} />
+
+        <div className="language-switcher">
+          <button
+            className={language === 'pt' ? 'active' : ''}
+            onClick={() => onLanguageChange('pt')}
+          >
+            PT
+          </button>
+          <button
+            className={language === 'en' ? 'active' : ''}
+            onClick={() => onLanguageChange('en')}
+          >
+            EN
+          </button>
+        </div>
 
         <button className="menu" onClick={toggleMenu}>
           <i className="fa fa-bars"></i>
@@ -30,6 +50,7 @@ export default function Header({ activeTab }: HeaderProps) {
       >
         <div className="options-dropdown">
           <HeaderTabs
+            tabs={content.tabs}
             activeTab={activeTab}
             isVertical
             onTabClick={() => setMenuOpen(false)}

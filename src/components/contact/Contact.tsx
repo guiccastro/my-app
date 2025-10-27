@@ -1,13 +1,9 @@
 import React from 'react';
 import './Contact.css';
 import { ContactProps } from './ContactProps';
-import content from '../../content.json';
-import { Content } from '../../content.types';
 
-export default function Contact({ ref }: ContactProps) {
-  const { title, address, phone, email, social, developedBy } = (
-    content as Content
-  ).contact;
+export default function Contact({ content, ref }: ContactProps) {
+  const { title, address, phone, email, social, developedBy } = content;
 
   return (
     <footer id="contact" className="contact" ref={ref}>

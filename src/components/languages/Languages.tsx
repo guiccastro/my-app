@@ -1,11 +1,9 @@
 import React from 'react';
 import './Languages.css';
 import { LanguagesProps } from './LanguagesProps';
-import content from '../../content.json';
-import { Content } from '../../content.types';
 
-export default function Languages({ ref }: LanguagesProps) {
-  const { title, items } = (content as Content).languages;
+export default function Languages({ content, ref }: LanguagesProps) {
+  const { title, items } = content;
 
   return (
     <section id="languages" className="languages" ref={ref}>

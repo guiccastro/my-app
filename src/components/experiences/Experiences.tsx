@@ -1,8 +1,6 @@
 import React from 'react';
 import './Experiences.css';
 import { ExperiencesProps } from './ExperiencesProps';
-import content from '../../content.json';
-import { Content } from '../../content.types';
 import hcltechLogo from '../../assets/hcltech_logo.jpeg';
 import nelogicaLogo from '../../assets/nelogica_logo.jpg';
 import furgLogo from '../../assets/furg_logo.jpg';
@@ -17,8 +15,8 @@ const logoMap: { [key: string]: string } = {
   'furgbot_logo.png': furgbotLogo,
 };
 
-export default function Experiences({ ref }: ExperiencesProps) {
-  const { title, items } = (content as Content).experiences;
+export default function Experiences({ content, ref }: ExperiencesProps) {
+  const { title, items } = content;
 
   return (
     <section id="experiences" className="experiences" ref={ref}>

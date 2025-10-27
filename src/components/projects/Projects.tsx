@@ -1,8 +1,6 @@
 import React from 'react';
 import './Projects.css';
 import { ProjectsProps } from './ProjectsProps';
-import content from '../../content.json';
-import { Content } from '../../content.types';
 import curriculoOnlineBanner from '../../assets/curriculo_online_banner.png';
 import mydexBanner from '../../assets/mydex_banner.png';
 import tccBanner from '../../assets/tcc_banner.png';
@@ -17,8 +15,8 @@ const bannerMap: { [key: string]: string } = {
   'furgbot_banner.jpg': furgbotBanner,
 };
 
-export default function Projects({ ref }: ProjectsProps) {
-  const { title, items } = (content as Content).projects;
+export default function Projects({ content, ref }: ProjectsProps) {
+  const { title, items } = content;
 
   return (
     <section id="projects" className="projects" ref={ref}>

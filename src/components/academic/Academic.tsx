@@ -1,7 +1,6 @@
 import React from 'react';
 import './Academic.css';
 import { AcademicProps } from './AcademicProps';
-import content from '../../content.json';
 import furgLogo from '../../assets/furg_logo.jpg';
 import ctbmLogo from '../../assets/ctbm_logo.jpg';
 
@@ -10,8 +9,8 @@ const logoMap: { [key: string]: string } = {
   'ctbm_logo.jpg': ctbmLogo,
 };
 
-export default function Academic({ ref }: AcademicProps) {
-  const { title, items } = content.academic;
+export default function Academic({ content, ref }: AcademicProps) {
+  const { title, items } = content;
 
   return (
     <section id="academic" className="academic" ref={ref}>

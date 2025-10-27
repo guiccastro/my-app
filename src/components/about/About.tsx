@@ -1,10 +1,9 @@
 import React from 'react';
 import './About.css';
-import content from '../../content.json';
 import { AboutProps } from './AboutProps';
 
-export default function About({ ref }: AboutProps) {
-  const { title, description, details } = content.about;
+export default function About({ content, ref }: AboutProps) {
+  const { title, description, details } = content;
 
   return (
     <section id="about-me" className="about" ref={ref}>

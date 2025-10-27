@@ -2,15 +2,13 @@ import HeaderTabItem from './HeaderTabItem';
 import styles from './HeaderTabs.module.css';
 import { HeaderTabsProps } from './HeaderTabsProps';
 import { PageSections } from '../../usePageSectionsRefMap';
-import content from '../../content.json';
-import { Content } from '../../content.types';
 
 export default function HeaderTabs({
+  tabs,
   activeTab,
   isVertical = false,
   onTabClick,
 }: HeaderTabsProps) {
-  const { tabs } = (content as Content).header;
   return (
     <div className={`${styles.tabs} ${isVertical ? styles.vertical : ''}`}>
       {tabs.map((tab, index) => (

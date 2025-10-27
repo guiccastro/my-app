@@ -1,9 +1,7 @@
 import React from 'react';
 import './Competences.css';
 import { CompetencesProps } from './CompetencesProps';
-import content from '../../content.json';
 import {
-  Content,
   LevelCompetenceItem,
   PercentageCompetenceItem,
 } from '../../content.types';
@@ -14,8 +12,8 @@ const isLevelCompetence = (
   return 'levelClass' in item;
 };
 
-export default function Competences({ ref }: CompetencesProps) {
-  const { title, sections } = (content as Content).competences;
+export default function Competences({ content, ref }: CompetencesProps) {
+  const { title, sections } = content;
 
   return (
     <section id="competences" className="competences" ref={ref}>

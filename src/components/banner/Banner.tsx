@@ -1,11 +1,9 @@
 import React from 'react';
 import './Banner.css';
 import { BannerProps } from './BannerProps';
-import content from '../../content.json';
-import { Content } from '../../content.types';
 
-export default function Banner({ ref }: BannerProps) {
-  const { title, description, links } = (content as Content).banner;
+export default function Banner({ content, ref }: BannerProps) {
+  const { title, description, links } = content;
 
   return (
     <section id="banner" className="banner" ref={ref}>
