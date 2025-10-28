@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-app/static/css/main.bb683feb.css",
-    "main.js": "/my-app/static/js/main.0274e915.js",
+    "main.js": "/my-app/static/js/main.9c8b4a05.js",
     "static/media/tcc_banner.png": "/my-app/static/media/tcc_banner.2a031f9b1ebe060d89b3.png",
     "static/media/curriculo_online_banner.png": "/my-app/static/media/curriculo_online_banner.29cbf389973125e5d63c.png",
     "static/media/mydex_banner.png": "/my-app/static/media/mydex_banner.1b7caa2444345e321917.png",
@@ -12,10 +12,10 @@
     "static/media/autoceres_logo.png": "/my-app/static/media/autoceres_logo.daef85194285041d37a1.png",
     "index.html": "/my-app/index.html",
     "main.bb683feb.css.map": "/my-app/static/css/main.bb683feb.css.map",
-    "main.0274e915.js.map": "/my-app/static/js/main.0274e915.js.map"
+    "main.9c8b4a05.js.map": "/my-app/static/js/main.9c8b4a05.js.map"
   },
   "entrypoints": [
     "static/css/main.bb683feb.css",
-    "static/js/main.0274e915.js"
+    "static/js/main.9c8b4a05.js"
   ]
 }
