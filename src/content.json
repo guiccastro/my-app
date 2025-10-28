@@ -3,9 +3,10 @@
   "about": {
     "title": "Sobre Mim",
     "description": [
-      "Sou Engenheiro de Computação formado pela FURG, com 2 anos de experiência profissional e sólidos conhecimentos em desenvolvimento Android. Também realizei um estágio com foco em desenvolvimento em Python.",
-      "Minha trajetória acadêmica inclui participação em diversos projetos de pesquisa e desenvolvimento na FURG, onde aperfeiçoei minhas habilidades técnicas e colaborativas. Meu TCC foi feito na Unity com RayTracing, demonstrando minha capacidade de trabalhar com tecnologias avançadas e inovadoras.",
-      "Além disso, possuo conhecimentos em desenvolvimento Web, o que me permite atuar em diferentes áreas da tecnologia. Estou sempre em busca de novos desafios e oportunidades para aplicar meu conhecimento e contribuir para o desenvolvimento de soluções tecnológicas de ponta."
+      "Sou Engenheiro de Computação com 4 anos de experiência em desenvolvimento Android, com habilidades em Kotlin, Jetpack Compose, MVVM, GraphQL e injeção de dependência (Hilt).",
+      "Atualmente trabalho na HCLTech como Desenvolvedor Android terceirizado para a SAP, contribuindo no design, implementação e otimização de features e interfaces de usuário complexas para Android. Anteriormente, trabalhei na Nelogica, desenvolvendo e mantendo aplicações de trading de alta performance.",
+      "Sólida base acadêmica pela Universidade Federal do Rio Grande (FURG), com experiência prática em Python, Unity (Ray Tracing) e Desenvolvimento Web.",
+      "Motivado por inovação e desafios técnicos, prospero em ambientes colaborativos onde qualidade, escalabilidade e performance são as principais prioridades."
     ],
     "details": [
       {
@@ -405,10 +406,10 @@
       {
         "logo": "hcltech_logo.jpeg",
         "company": "HCLTech",
-        "role": "Desenvolvedor Android",
+        "role": "Engenheiro Android",
         "location": "São Leopoldo",
         "period": "Agosto de 2024 - o momento",
-        "description": "Trabalhando na SAP como desenvolvedor Android terceirizado.",
+        "description": "Trabalhando na SAP como desenvolvedor Android terceirizado. Construindo componentes de UI e implementando lógica de negócios usando Jetpack Compose, GraphQL e Hilt.",
         "competences": "Kotlin ● GraphQL ● Jetpack Compose ● Injeção de Dependências"
       },
       {
@@ -478,12 +479,12 @@
     "items": [
       {
         "banner": "curriculo_online_banner.png",
-        "url": "https://guiccastro.github.io/",
+        "url": "https://guiccastro.github.io/my-app",
         "title": "Currículo Online",
         "type": "Página Web",
         "period": "Junho de 2024 – até o momento",
         "description": "Minha página web para servir como currículo online e portfólio para Desenvolvimento Web.",
-        "technologies": "Desenvolvimento Web ● HTML5 ● CSS ● JavaScript"
+        "technologies": "Desenvolvimento Web ● React ● CSS ● TypeScript"
       },
       {
         "banner": "mydex_banner.png",

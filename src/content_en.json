@@ -3,9 +3,10 @@
   "about": {
     "title": "About Me",
     "description": [
-      "I am a Computer Engineer from FURG, with 2 years of professional experience and solid knowledge in Android development. I also had an internship focused on Python development.",
-      "My academic background includes participation in several research and development projects at FURG, where I improved my technical and collaborative skills. My final paper was developed in Unity with Ray Tracing, demonstrating my ability to work with advanced and innovative technologies.",
-      "In addition, I have knowledge in Web development, which allows me to work in different areas of technology. I am always looking for new challenges and opportunities to apply my knowledge and contribute to the development of cutting-edge technological solutions."
+      "I am a Computer Engineer with 4 years of experience in Android development, skilled in Kotlin, Jetpack Compose, MVVM, GraphQL, and dependency injection (Hilt).",
+      "Currently working at HCLTech as a third-party Android Developer for SAP, contributing to the design, implementation, and optimization of complex Android features and user interfaces. Previously worked at Nelogica, developing and maintaining high-performance trading applications.",
+      "Strong academic foundation from Federal University of Rio Grande (FURG), with hands-on experience in Python, Unity (Ray Tracing), and Web Development.",
+      "Motivated by innovation and technical challenges, I thrive in collaborative environments where quality, scalability, and performance are top priorities."
     ],
     "details": [
       {
@@ -405,10 +406,10 @@
       {
         "logo": "hcltech_logo.jpeg",
         "company": "HCLTech",
-        "role": "Android Developer",
+        "role": "Android Engineer",
         "location": "São Leopoldo",
         "period": "August 2024 - present",
-        "description": "Working at SAP as a third-party Android developer.",
+        "description": "Working at SAP as a third-party Android developer. Building UI components and implementing business logic using Jetpack Compose, GraphQL, and Hilt.",
         "competences": "Kotlin ● GraphQL ● Jetpack Compose ● Dependency Injection"
       },
       {
@@ -478,12 +479,12 @@
     "items": [
       {
         "banner": "curriculo_online_banner.png",
-        "url": "https://guiccastro.github.io/",
+        "url": "https://guiccastro.github.io/my-app",
         "title": "Online Resume",
         "type": "Web Page",
         "period": "June 2024 – present",
         "description": "My web page to serve as an online resume and portfolio for Web Development.",
-        "technologies": "Web Development ● HTML5 ● CSS ● JavaScript"
+        "technologies": "Web Development ● React ● CSS ● TypeScript"
       },
       {
         "banner": "mydex_banner.png",
