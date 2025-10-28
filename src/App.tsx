@@ -33,6 +33,13 @@ export default function App() {
 
   useEffect(
     function () {
+      document.title = currentContent.pageTitle;
+    },
+    [currentContent],
+  );
+
+  useEffect(
+    function () {
       function verifySection(entry: IntersectionObserverEntry) {
         if (!entry.rootBounds) {
           return;

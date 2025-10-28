@@ -1,4 +1,5 @@
 export interface Content {
+  pageTitle: string;
   title: string;
   about: AboutSection;
   academic: AcademicSection;
