@@ -369,6 +369,9 @@
   "contact": {
     "title": "Contact",
     "address": "São Leopoldo, Rio Grande do Sul - Brazil",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "emailLabel": "E-mail",
     "phone": {
       "number": "(53) 99999-2518",
       "link": "tel:+5553999992518"

@@ -3,7 +3,17 @@ import './Contact.css';
 import { ContactProps } from './ContactProps';
 
 export default function Contact({ content, ref }: ContactProps) {
-  const { title, address, phone, email, social, developedBy } = content;
+  const {
+    title,
+    address,
+    phone,
+    email,
+    social,
+    developedBy,
+    addressLabel,
+    phoneLabel,
+    emailLabel,
+  } = content;
 
   return (
     <footer id="contact" className="contact" ref={ref}>
@@ -11,19 +21,19 @@ export default function Contact({ content, ref }: ContactProps) {
 
       <div className="list">
         <div className="item">
-          <h2>Endereço:</h2>
+          <h2>{addressLabel}:</h2>
           <p>{address}</p>
         </div>
 
         <div className="item">
-          <h2>Telefone:</h2>
+          <h2>{phoneLabel}:</h2>
           <a href={phone.link}>
             <p>{phone.number}</p>
           </a>
         </div>
 
         <div className="item">
-          <h2>E-mail:</h2>
+          <h2>{emailLabel}:</h2>
           <a href={email.link}>
             <p>{email.address}</p>
           </a>

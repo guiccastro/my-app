@@ -68,6 +68,9 @@ export interface LevelCompetenceItem {
 export interface ContactSection {
   title: string;
   address: string;
+  addressLabel: string;
+  phoneLabel: string;
+  emailLabel: string;
   phone: {
     number: string;
     link: string;
